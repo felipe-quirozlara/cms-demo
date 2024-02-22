@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_lista_de_botones",
+  "info": {
+    "displayName": "lista de botones"
+  },
+  "options": {},
+  "attributes": {
+    "Botones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.boton",
+      "max": 2,
+      "min": 1
+    }
+  }
+}

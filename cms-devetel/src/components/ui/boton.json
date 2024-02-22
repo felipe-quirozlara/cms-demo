@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_navbar_botons",
+  "info": {
+    "displayName": "Botón",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "enlace": {
+      "type": "string",
+      "required": true
+    },
+    "colores": {
+      "type": "enumeration",
+      "enum": [
+        "azul",
+        "naranja"
+      ],
+      "default": "azul",
+      "required": true
+    }
+  }
+}

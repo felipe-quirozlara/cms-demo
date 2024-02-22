@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_texto_normals",
+  "info": {
+    "displayName": "Texto Normal"
+  },
+  "options": {},
+  "attributes": {
+    "Texto": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
