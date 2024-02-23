@@ -32,7 +32,7 @@ export const Navbar = async () => {
           {info.enlaces.map((enlace: Enlace) => (
             <li key={enlace.id}>
               <Button
-                className={cn("text-lg")}
+                className={cn("text-lg","text-white")}
                 variant={enlace.__component.includes('ui.link') ? 'link' : enlace.colores === "azul" ? 'default' : "orange"}
                 asChild={enlace.__component.includes('ui.link')}
               >
