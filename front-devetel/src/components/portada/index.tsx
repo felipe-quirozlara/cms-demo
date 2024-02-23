@@ -15,10 +15,10 @@ export const Hero = async () => {
     >
       <div
         className={cn(
+          "flex flex-col justify-between",
+          "w-full h-full",
           "absolute z-10",
           "px-4 pt-4",
-          "flex flex-col justify-between",
-          "w-full h-full"
         )}
       >
         <Navbar />
